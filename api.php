@@ -100,7 +100,7 @@ $city = "Bell";
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_PROXY, $poxySocks4);
-curl_setopt($ch, CURLOPT_URL, 'https://token.canadahelps.org/tokens/v2');
+curl_setopt($ch, CURLOPT_URL, 'https://api.stripe.com/v1/tokens');
 curl_setopt($curl, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
 curl_setopt($ch, CURLOPT_HEADER, 0);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array(
@@ -526,8 +526,8 @@ else {
 curl_close($ch);
 ob_flush();
 
-echo $result1;
-echo $result2;
+//echo $result1;
+//echo $result2;
 
 
 
