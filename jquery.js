@@ -157,7 +157,7 @@ function notifyMe(message, status, progress) {
                            }
                          }
                       }
-                    xmlhttp.open("GET","api.php?lista=" + cc2,true);
+                    xmlhttp.open("GET","chk.php?lista=" + cc2,true);
                     xmlhttp.send();
       }
 
