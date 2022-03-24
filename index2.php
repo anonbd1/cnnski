@@ -212,7 +212,7 @@ $('.btn-stop').attr('disabled', false);
 
 line.forEach(function(data){
 var callBack = $.ajax({
-	url: 'api.php?lista=' + data,
+	url: 'chk.php?lista=' + data,
 	success: function(retorno){
 		if(retorno.indexOf("#CHARGED") >= 0){
 			Swal.fire({title: '+1 CHARGED CC', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
