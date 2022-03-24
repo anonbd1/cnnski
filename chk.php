@@ -85,7 +85,7 @@ $postcode = $matches1[1][0];
 # -------------------- [1 REQ] -------------------#
 
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_PROXY, $poxySocks5);
+curl_setopt($ch, CURLOPT_PROXY, $poxySocks4);
 curl_setopt($ch, CURLOPT_URL, 'https://api.stripe.com/v1/tokens');
 curl_setopt($curl, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
 curl_setopt($ch, CURLOPT_HEADER, 0);
@@ -123,7 +123,7 @@ $id = trim(strip_tags(getStr($result1,'"id": "','"')));
 # -------------------- [2 REQ] -------------------#
 
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_PROXY, $poxySocks5);
+curl_setopt($ch, CURLOPT_PROXY, $poxySocks4);
 curl_setopt($ch, CURLOPT_URL, 'https://signrequest.com/orders/billing/update-card');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_HEADER, 0);
