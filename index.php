@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
     <link rel="stylesheet" href="assets/css/pace.css">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>🐉[ᴅʙ] ᴅʀᴀɢᴏɴʙɪɴ</title>
+    <title>@ANONBD</title>
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600%7CRoboto:400" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
@@ -40,7 +40,7 @@ function Mudaestado(el) {
             <!-- Page Title Area -->
             <div class="row page-title clearfix">
                 <div class="page-title-left">
-                    <center><h4 class="page-title-heading mr-0 mr-r-10">🐉[ᴅʙ] ᴅʀᴀɢᴏɴʙɪɴ</h4></center>
+                    <center><h4 class="page-title-heading mr-0 mr-r-10">@HACKERBD1</h4></center>
                     <p class="page-title-description mr-0 d-none d-md-inline-block"></p>
                 </div>
             </div>
@@ -133,7 +133,7 @@ TESTED: <span id="testado" class="badge badge-white">0</span> -
 TOTAL: <span id="carregada" class="badge badge-white">0</span></center>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <br>
-<center><span class="badge badge-blue">Checker Modified by:</span>  <span class="badge badge-success"><a href = "https://telegram.dog/DragonBin" style="color:white">🐉[ᴅʙ] ᴅʀᴀɢᴏɴʙɪɴ</a></span></center>
+<center><span class="badge badge-blue">Checker by:</span>  <span class="badge badge-success"><a href = "https://telegram.dog/ANONBD" style="color:white">@ANONBD</a></span></center>
     <script src="assets/js/theme.js"></script>
     <script src="assets/js/custom.js"></script>
     <script src="js.js"></script>
